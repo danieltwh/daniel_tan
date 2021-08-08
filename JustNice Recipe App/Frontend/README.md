@@ -9,7 +9,7 @@ First, enter the client directory to access the React Application:
 In the Client directory, you can run:
 
 ### `yarn install`
-Install all the dependencies for the project.
+Installs all the dependencies for the project.
 
 ### `yarn start`
 
