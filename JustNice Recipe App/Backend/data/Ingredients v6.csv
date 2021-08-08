@@ -1,0 +1,404 @@
+ingred_name,ingred_cat,ingred_unit
+Ladyfingers,Fruits,g
+Streusel,"Grain, nuts and baking products",g
+Adobo Seasoning,Others,g
+Almond,"Grain, nuts and baking products",g
+Amaretto,Others,ml
+Anchovy,"Meat, sausages and fish",g
+Anise,Herbs and spices ,g
+Apple,Fruits,g
+Apple Juice,Fruits,ml
+Applesauce,Others,g
+Apricot,Fruits,g
+Artichoke,Vegetables ,g
+Artificial Sweetener,Others,ml
+Arugula,Vegetables ,g
+Asparagus,Vegetables ,g
+Avocado,Fruits,whole
+Bacon,"Meat, sausages and fish",g
+Baking Mix,"Grain, nuts and baking products",g
+Baking Powder,"Grain, nuts and baking products",g
+Baking Soda,"Grain, nuts and baking products",g
+Banana,Fruits,whole
+Barbecue Sauce,Others,ml
+Barbeque Seasoning,Others,g
+Barley,"Grain, nuts and baking products",g
+Basil,Herbs and spices ,g
+Bass,"Meat, sausages and fish",g
+Batter,"Grain, nuts and baking products",g
+Bay Leaf,Herbs and spices ,g
+Bean,Vegetables ,g
+Beef,"Meat, sausages and fish",g
+Beef Rib,"Meat, sausages and fish",g
+Beef Shank,"Meat, sausages and fish",g
+Beef Tenderloin,"Meat, sausages and fish",g
+Beer,Others,ml
+Beet,Vegetables ,g
+Bell Pepper,Vegetables ,g
+Berry,Fruits,g
+Biscuit,"Grain, nuts and baking products",g
+Bitters,Others,ml
+Black Pepper,Herbs and spices ,g
+Blackberry,Fruits,g
+Blue Cheese,"Eggs, milk and milk products",g
+Blueberry,Fruits,g
+Bok Choy,Vegetables ,g
+Bourbon,Others,ml
+Bran,"Grain, nuts and baking products",g
+Brandy,Others,ml
+Bread,"Pasta, rice and pulses  ",whole
+Brine,Others,ml
+Brisket,"Meat, sausages and fish",g
+Broccoli,Vegetables ,g
+Broccoli Rabe,Vegetables ,g
+Brown Rice,"Pasta, rice and pulses ",g
+Brown Sugar,"Grain, nuts and baking products",g
+Brownie,Others,whole
+Brussel Sprout,Vegetables ,g
+Bulgur,"Grain, nuts and baking products",g
+Butter,Fats and oils,g
+Buttermilk,"Eggs, milk and milk products",ml
+Butternut Squash,Fruits,g
+Cabbage,Vegetables ,g
+Cacao,"Grain, nuts and baking products",g
+Cajun Seasoning,Others,g
+Cake,"Grain, nuts and baking products",whole
+Calvados,Others,ml
+Campari,Others,ml
+Candy,Others,g
+Canola Oil,Fats and oils,ml
+Cantaloupe,Vegetables ,g
+Capers,Herbs and spices ,g
+Caramel,"Grain, nuts and baking products",g
+Caraway,Herbs and spices ,g
+Cardamom,Herbs and spices ,g
+Carrot,Vegetables ,g
+Cashew,"Grain, nuts and baking products",g
+Cauliflower,Vegetables ,g
+Celery,Vegetables ,g
+Cereal,Others,g
+Champagne,Others,ml
+Chard,Vegetables ,g
+Cheddar,"Eggs, milk and milk products",g
+Cheese,"Eggs, milk and milk products",g
+Cherry,Fruits,g
+Chestnut,"Grain, nuts and baking products",g
+Chicken,"Meat, sausages and fish",g
+Chicken Broth,Others,ml
+Chickpea,"Pasta, rice and pulses  ",g
+Chili,Herbs and spices ,g
+Chili Pepper,Herbs and spices ,g
+Chive,Vegetables ,g
+Chocolate,Fats and oils,g
+Cilantro,Vegetables ,g
+Cinnamon,Herbs and spices ,g
+Citron,Fruits,g
+Citrus,Fruits,g
+Clam,"Meat, sausages and fish",g
+Clove,Vegetables ,g
+Cobbler Topping,Others,g
+Cocktail,Others,ml
+Cocktail Sauce,Others,ml
+Cocoa,"Grain, nuts and baking products",g
+Cocoa Powder,"Grain, nuts and baking products",g
+Coconut,Fruits,g
+Cod,"Meat, sausages and fish",g
+Coffee,"Grain, nuts and baking products",g
+Cola,Others,ml
+Collard Greens,Vegetables ,g
+Cookie,Fats and oils,g
+Cookies,Fats and oils,g
+Cooking Spray,Others,ml
+Coriander,Vegetables ,g
+Corn,Vegetables ,g
+Corn Oil,Fats and oils,ml
+Corn Syrup,Others,ml
+Cornmeal,"Grain, nuts and baking products",g
+Cornstarch,"Grain, nuts and baking products",g
+Cottage Cheese,"Eggs, milk and milk products",g
+Couscous,"Grain, nuts and baking products",g
+Crab,"Meat, sausages and fish",g
+Crackers,"Grain, nuts and baking products",g
+Cranberry,Fruits,g
+Cranberry Sauce,Others,ml
+Cream,"Eggs, milk and milk products",g
+Cream Cheese,"Eggs, milk and milk products",g
+Creole Seasoning,Others,g
+Crepes,Others,whole
+Crescent Roll,Others,whole
+Cucumber,Vegetables ,g
+Cumin,Herbs and spices ,g
+Currant,Fruits,g
+Curry,Herbs and spices ,g
+Custard,Others,g
+Dates,Fruits,g
+Dill,Herbs and spices ,g
+Dough,"Grain, nuts and baking products",g
+Dressing,Fats and oils,ml
+Dried Fruit,Fruits,g
+Duck,"Meat, sausages and fish",g
+Duck Sauce,Others,ml
+Egg,"Eggs, milk and milk products",whole
+Eggplant,Vegetables ,g
+Endive,Vegetables ,g
+Escarole,Vegetables ,g
+Fajita Seasoning,Others,g
+Fat,Fats and oils,ml
+Fennel,Herbs and spices ,g
+Fig,Fruits,g
+File Powder,Herbs and spices ,g
+Filling,Others,g
+Fish,"Meat, sausages and fish",g
+Flour,"Grain, nuts and baking products",g
+Fontina,"Eggs, milk and milk products",g
+Food Coloring,Others,ml
+Frosting,Others,g
+Fruit,Fruits,g
+Fruit Juice,Fruits,ml
+Ganache,"Grain, nuts and baking products",g
+Garlic,Vegetables ,g
+Gelatin,Fats and oils,g
+Ghee,"Eggs, milk and milk products",g
+Gin,Others,ml
+Ginger,Vegetables ,g
+Goat Cheese,"Eggs, milk and milk products",g
+Golden Syrup,Others,ml
+Goose,"Meat, sausages and fish",g
+Grains,"Grain, nuts and baking products",g
+Grand Marnier,Others,ml
+Granola,"Grain, nuts and baking products",g
+Grape,Fruits,g
+Grapefruit,Fruits,g
+Gravy,Others,ml
+Green Bean,Vegetables ,g
+Green Onion,Vegetables ,g
+Green Pepper,Vegetables ,g
+Ground Beef,"Meat, sausages and fish",g
+Ground Lamb,"Meat, sausages and fish",g
+Guava,Fruits,g
+Gum Drop,Others,g
+Gumdrop,Others,g
+Gummi,Others,g
+Haddock,"Meat, sausages and fish",g
+Halibut,"Meat, sausages and fish",g
+Ham,"Meat, sausages and fish",g
+Hazelnut,"Grain, nuts and baking products",g
+Herb,Herbs and spices ,g
+Honey,Fats and oils,ml
+Honeydew,Fruits,g
+Horseradish,Vegetables ,g
+Hot Pepper,Fruits,g
+Ice,Others,g
+Ice Cream,Others,g
+Icing,"Grain, nuts and baking products",g
+Italian Seasoning,Others,g
+Kale,Vegetables ,g
+Ketchup,Others,ml
+Kirsch,Others,ml
+Kiwi,Fruits,g
+Kumquat,Fruits,g
+Lamb,"Meat, sausages and fish",g
+Lamb Chop,"Meat, sausages and fish",g
+Lamb Shank,"Meat, sausages and fish",g
+Lard,Fats and oils,g
+Lasagna,Others,whole
+Lavender Flower,Herbs and spices ,g
+Lecithin,Fats and oils,g
+Leek,Vegetables ,g
+Lemon,Fruits,g
+Lemon Juice,Fruits,ml
+Lentil,Vegetables ,g
+Lettuce,Vegetables ,g
+Lima Bean,Vegetables ,g
+Lime,Fruits,g
+Lime Juice,Fruits,ml
+Liqueur,Others,ml
+Lobster,"Meat, sausages and fish",g
+Lychee,Fruits,g
+Macadamia Nut,"Grain, nuts and baking products",g
+Macaroni,"Pasta, rice and pulses  ",g
+Macaroni And Cheese,Others,g
+Mace,Herbs and spices ,g
+Mango,Fruits,g
+Maple Syrup,Others,ml
+Margarine,Fats and oils,g
+Margarita,Others,ml
+Marjoram,Herbs and spices ,g
+Marsala,Others,ml
+Marshmallow,Others,g
+Mayonnaise,Others,g
+Meat,"Meat, sausages and fish",g
+Meatball,"Meat, sausages and fish",g
+Milk,"Eggs, milk and milk products",ml
+Mint,Herbs and spices ,g
+Molasses,Others,g
+Monterey Jack,"Eggs, milk and milk products",g
+Mozzarella,"Eggs, milk and milk products",g
+Muffin,Others,whole
+Mushroom,Vegetables ,g
+Mussel,"Meat, sausages and fish",g
+Mustard,Others,ml
+Nectarine,Fruits,g
+Noodle,"Pasta, rice and pulses  ",g
+Nut,"Grain, nuts and baking products",g
+Nutmeg,Herbs and spices ,g
+Oat,"Grain, nuts and baking products",g
+Oatmeal,"Grain, nuts and baking products",g
+Okra,Vegetables ,g
+Olive,Fruits,g
+Onion,Vegetables ,g
+Orange,Fruits,g
+Orange Juice,Fruits,ml
+Oregano,Herbs and spices ,g
+Oyster,"Meat, sausages and fish",g
+Pancake,Others,g
+Papaya,Fruits,g
+Paprika,Herbs and spices ,g
+Parmesan,"Eggs, milk and milk products",g
+Parsley,Vegetables ,g
+Parsnip,Vegetables ,g
+Passion Fruit,Fruits,g
+Pasta,"Pasta, rice and pulses  ",g
+Pastry,Others,whole
+Pea,Vegetables ,g
+Peach,Fruits,g
+Peanut,"Grain, nuts and baking products",g
+Peanut Butter,Fats and oils,g
+Peanut Oil,Fats and oils,ml
+Pear,Fruits,g
+Pecan,"Grain, nuts and baking products",g
+Pepper,Herbs and spices ,g
+Persimmon,Fruits,g
+Pickles,Vegetables ,g
+Pie,Others,whole
+Pimento,Vegetables ,g
+Pine Nut,"Grain, nuts and baking products",g
+Pineapple,Fruits,g
+Pistachio,"Grain, nuts and baking products",g
+Pizza,Others,whole
+Plantain,Fruits,g
+Plum,Fruits,g
+Poblano,Vegetables ,g
+Pomegranate,Fruits,g
+Pomegranate Juice,Fruits,ml
+Poppy,Others,g
+Pork,"Meat, sausages and fish",g
+Pork Chop,"Meat, sausages and fish",g
+Pork Rib,"Meat, sausages and fish",g
+Pork Tenderloin,"Meat, sausages and fish",g
+Port,Others,ml
+Potato,"Pasta, rice and pulses  ",g
+Pretzel,Others,whole
+Prosciutto,"Meat, sausages and fish",g
+Prune,Fruits,g
+Pudding,Others,g
+Puff,Others,whole
+Pumpkin,Vegetables ,g
+Quinoa,"Grain, nuts and baking products",g
+Rabbit,"Meat, sausages and fish",g
+Rack Of Lamb,"Meat, sausages and fish",g
+Radicchio,Vegetables ,g
+Radish,Vegetables ,g
+Raisin,Fruits,g
+Raspberry,Fruits,g
+Red Pepper,Vegetables ,g
+Red Wine,Others,ml
+Rhubarb,Vegetables ,g
+Rice,"Pasta, rice and pulses  ",g
+Rice Vinegar,Herbs and spices ,ml
+Ricotta,"Eggs, milk and milk products",whole
+Rosemary,Herbs and spices ,g
+Rum,Others,ml
+Rutabaga,Vegetables ,g
+Saffron,Herbs and spices ,g
+Sage,Herbs and spices ,g
+Sake,Others,ml
+Salad Dressing,Fats and oils,ml
+Salami,"Meat, sausages and fish",g
+Salmon,"Meat, sausages and fish",g
+Salsa,Others,g
+Salt,Others,g
+Sauce,Others,ml
+Sauerkraut,Vegetables ,g
+Sausage,"Meat, sausages and fish",g
+Scallop,"Meat, sausages and fish",g
+Seed,"Grain, nuts and baking products",g
+Semolina,"Grain, nuts and baking products",g
+Sesame,"Grain, nuts and baking products",g
+Sesame Oil,Fats and oils,ml
+Shallot,Vegetables ,g
+Sherry,Others,ml
+Shrimp,"Meat, sausages and fish",g
+Skewer,Others,whole
+Snapper,"Meat, sausages and fish",g
+Soda,Others,ml
+Sodium,Others,g
+Sour Cream,Others,g
+Sourdough,"Grain, nuts and baking products",g
+Soy Sauce,Others,ml
+Spaghetti,"Pasta, rice and pulses  ",g
+Spice,Herbs and spices ,g
+Spinach,Vegetables ,g
+Squash,Fruits,g
+Squid,"Meat, sausages and fish",g
+Steak,"Meat, sausages and fish",g
+Steak Sauce,Others,ml
+Stock,Others,ml
+Strawberry,Fruits,whole
+Sugar,Others,g
+Sugar Snap Pea,Vegetables ,g
+Swiss Cheese,"Eggs, milk and milk products",g
+Swordfish,"Meat, sausages and fish",g
+Syrup,Others,ml
+Taco,Others,g
+Tahini,"Grain, nuts and baking products",g
+Tamarind,Fruits,g
+Tangerine,Fruits,g
+Tapioca,"Pasta, rice and pulses  ",g
+Tarragon,Herbs and spices ,g
+Tart,Others,whole
+Tea,Others,ml
+Tequila,Others,ml
+Thyme,Herbs and spices ,g
+Tilapia,"Meat, sausages and fish",g
+Tofu,Vegetables ,g
+Tomatillo,Fruits,g
+Tomato,Fruits,g
+Tomato Sauce,Others,ml
+Tortillas,Others,g
+Triple Sec,Others,ml
+Tropical Fruit,Fruits,g
+Trout,"Meat, sausages and fish",g
+Tuna,"Meat, sausages and fish",g
+Turkey,"Meat, sausages and fish",g
+Turnip,Vegetables ,g
+Vanilla Essence (Liquid),Herbs and spices ,ml
+Vanilla Essence (Solid),Herbs and spices ,g
+Veal,"Meat, sausages and fish",g
+Vegetable,Vegetables ,g
+Vegetable Oil,Fats and oils,ml
+Venison,"Meat, sausages and fish",g
+Vermouth,Others,ml
+Vinaigrette,Fats and oils,g
+Vinegar,Herbs and spices ,ml
+Vodka,Others,ml
+Walnut,"Grain, nuts and baking products",g
+Wasabi,Vegetables ,g
+Water,Others,ml
+Watercress,Vegetables ,g
+Watermelon,Fruits,g
+Wheat,"Grain, nuts and baking products",g
+Wheat Germ,Others,g
+Whipping Cream,"Eggs, milk and milk products",ml
+Whiskey,Others,ml
+White Sugar,Others,g
+White Wine,Others,ml
+Whole Wheat,"Grain, nuts and baking products",g
+Wild Rice,"Pasta, rice and pulses ",g
+Wine,Others,ml
+Worcestershire Sauce,Others,ml
+Yeast,"Grain, nuts and baking products",g
+Yellow Squash,Fruits,g
+Yogurt,"Eggs, milk and milk products",g
+Zest,Fruits,g
+Zucchini,Vegetables ,g

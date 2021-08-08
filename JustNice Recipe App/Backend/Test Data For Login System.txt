@@ -1,0 +1,50 @@
+// TEST THE FOLLOWING ON BASE_URL + user/
+
+// Test Reg (Do a get req before creating. Username cannot repeat) (POST req)
+
+    {
+        "username": "test17",
+        "password": "somehackablepassword"
+    }
+
+// The one above shows the minimum fields needed for a successful user creation. One below are additional fields that can be included
+
+    {
+        "username": "test18",
+        "email": "test@test.com",
+        "id": 0,
+        "first_name": "testguy",
+        "last_name": "18",
+        "password": "somehackablepassword"
+    }
+
+// TEST THE STUFF BELOW ON BASE_URL + user/login
+// (ALL are POST reqs. GET will just return the entire database)
+
+//Test Login
+{
+        "username": "loginguy2",
+        "password": "somehackablepassword"
+    }
+
+//OR
+
+{
+        "username": "test11",
+        "password": "test123"
+    }
+
+// Wrong pwd (Check for wrong pwd)
+
+{
+        "username": "test11",
+        "password": "test12"
+    }
+
+// User DNE
+
+{
+        "username": "LoginGuy0",
+        "password": "somehackablepassword2"
+    }
+

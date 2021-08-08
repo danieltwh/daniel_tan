@@ -1,0 +1,20 @@
+// This file is used to store the test cases we run along with expected 
+// output from every url extension
+// Note: Every json file must be clearly labelled with the extension, 
+// req type and case scenario
+
+// This is for /user/login
+// Currently On GET, it will return all users in our DB
+// On POST, it returns a status message stating whether the user exists
+
+// This one will return a successful login
+{
+	"username": "LoginGuy1",
+	"password": "somehackablepassword"
+}
+
+// This one will return a failed login
+{
+	"username": "loginGuy1",
+	"password": "somehackablepassword"
+}

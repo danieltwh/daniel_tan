@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "username": "test123",
+        "password": "test123",
+        "firstname": "Tom",
+        "lastname": "Lim",
+        "email": "tomlim@gmail.com",
+        "token": "test123",
+        "img": "/assets/profilepic/profilepic-1.png"
+    },
+    {
+        "id": 2,
+        "username": "test",
+        "password": "test",
+        "firstname": "Tom",
+        "lastname": "Lim",
+        "email": "tomlim@gmail.com",
+        "token": "test"
+    },
+    {
+        "id": 3,
+        "username": "test1",
+        "password": "test1",
+        "firstname": "Tom",
+        "lastname": "Lim",
+        "email": "tomlim@gmail.com",
+        "token": "test1"
+    }
+]

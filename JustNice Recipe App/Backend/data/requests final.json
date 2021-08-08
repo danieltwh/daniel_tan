@@ -1,0 +1,164 @@
+/* 
+This file is created for the purpose of finalising all the format
+the requests are to be in. 
+
+ALL THE VARIABLE NAMINGS MUST BE STRICTLY FOLLOWED FRONT AND BACKEND.
+
+REQUIRED VALIDATORS ARE INCLUDED HERE AS WELL. 
+
+All the extensions are in full and only need to be added directly to 
+the back of the BASE URL.
+
+Unless mentioned otherwise, all fields MUST be included
+*/
+
+// THIS IS THE ADMIN LOGIN DETAILS (Do not change or edit the credentials)
+{
+    "username": "root",
+    "password": "justnice123"
+}
+
+// Ext: /user/
+// Use: Registering users and editing profile info
+// Validators required: username must be unique 
+// and only contain alphanumeric, _, @, +, . and - characters. 
+// Pwd and cfm pwd must match
+// DO NOT include 'id' as a field. Auto incrementer already added
+// Optional: No whitespace at the start
+// Use on: POST req to create, PUT req to update
+// POST AND PUT share same input format
+
+{
+    "username": "trinidad",
+    "email": "email@email.com",
+    "first_name": "firstname",
+    "last_name": "lastname",
+    "password": "test123"
+}
+
+// Ext: /user/checkuser/
+// Use: Validate username existence 
+// Validators required: All fields below must be included 
+// Use on: POST req
+
+{
+    "username": "LoginGuy1",
+    "password": "somehackablepassword"
+} 
+
+
+// Ext: /user/login/
+// Use: Login and retrieval of user 
+// Validators required: All fields below must be included 
+// Use on: POST req
+
+{
+    "username" : "username"
+}
+
+CONTINUE FROM HERE 
+// Ingred creation POST, all fields are required
+// ingred_name MUST BE UNIQUE 
+
+{
+    "ingred_name": "Beef",
+    "ingred_unit": "g",
+    "ingred_cat": "Meat"
+}
+
+// Ingred validating POST, only ingred_name is required
+// Returns ingredient if it exists, otherwise it returns does not exist
+// NOTE: search must be unique, it returns multiple then django's gonna complain
+{
+    "ingred_name": "Lamb"
+}
+
+// Actual recipe creation POST, variable names must follow exactly and 
+// all fields must be included
+// The value for ingredients is another nested json with KVPair of
+// ingred_id : qty
+{
+    "rec_name": "rec1",
+    "rec_instructions": "Just cook",
+    "cooking_time": "100.0",
+    "serving_pax": "1",
+    "cuisine" : "global",
+    "rec_type": "edible",
+    "isPublished": "True",
+    "user_id": "1",
+    "ingredients": [
+    	{"ingred_id1": "1"},
+        {"ingred_id2": "2"},
+        {"ingred_id_uncat": {
+        	"ingred_name" : "new ingred ",
+            "ingred_unit" : "g/ml/whole",
+            "ingred_quantity" : "qty"
+        }
+        }]
+}
+
+// Recipe getter, this is used to get all recipes belonging to a user
+{
+    "user_id" : "1"
+}
+
+// Full recipe getter, this is used to get an entire recipe with ingredients
+{
+    "rec_id" : "1"
+}
+
+{
+    "rec_detail1" : "",
+    "rec_detail2" : "",
+    "ingred" : {
+        "ingred_id1" : {
+            "ingred_detail1" : "value",
+            "ingred_detail2" : "value",
+        },
+        "ingred_id2" : {
+            "ingred_detail1" : "value",
+            "ingred_detail2" : "value",
+        }
+    },
+    "quantity" : {
+        "ingred_id1" : "qty1",
+        "ingred_id2" : "qty2"
+    }
+}
+
+
+// Groc list updater POST Input
+{
+    "list_name" : "new name",
+    "rec_id" : "rec_quantity",
+    "rec_id2" : "rec_quantity"
+}
+
+{ 
+	"list_name" : "New list name",
+	"3" : true,
+	"16" : true
+}
+
+// Groc list updater PUT Input
+{
+    "ingred_id" : "isBoughtStatus",
+    "ingred_id2" : "isBoughtStatus"
+}
+
+{ 
+	"3" : true,
+	"16" : true
+}
+
+
+// GET PHOTO
+{
+    "filename" : "name_with_no_ext"
+}
+
+// Update PHOTO
+{
+    "pic" : "Photo file here",
+    "filename" : "name_with_no_ext"
+}

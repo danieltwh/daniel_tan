@@ -1,0 +1,975 @@
+/* .default_img {
+  background-image: url("/public/assets/recipe-3.jpeg");
+  background-repeat: no-repeat;
+} */
+
+.tab {
+  margin-left: 10px;
+}
+
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  margin-bottom: 20px;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+/********* Recipe Tile *********/ 
+.recipe-tile {
+  margin: 5% 0;
+}
+
+.recipe-tile:hover {
+  background-color: #e9ecef;
+  text-decoration: none;
+}
+
+.recipe-tile-title {
+  font-size: 18px;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 27px;
+}
+
+.recipe-tile-img {
+  width: 100%;
+  /* min-width: 100px; */
+  /* height: 20vh; */
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  }
+
+/* .recipe-tile-img {
+  width: 171px;
+  height: 171px
+} */
+
+
+.recipe-tile-details-box {
+  padding: 2px 10px 4px 10px !important;
+  align-items: center;
+  height: 60px;
+}
+
+.recipe-tile-details {
+  /* white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 17px; */
+}
+
+
+.share-button{
+  color: 'white';
+  background-color: 'blue';
+  top: '50%';
+  height: 30;
+  float: 'right';
+  position: 'relative';
+  transform: 'translateY(-50%)';
+}
+
+.recipe-tile-edit-button {
+  position: relative;
+  right: 2px;
+  bottom: -2px;
+}
+
+.footer{
+  background-color: #D1C4E9;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #1a535c ;
+  color:floralwhite;
+  border-radius: 0px;
+}
+
+.address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+
+/********* NavBar *********/ 
+/* .navbar-collapse.width {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  > ul { width: 200px; }
+} */
+
+.navbar-dark {
+  background-color: #ff6b6b;
+  padding: 12px 16px 10px 16px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  align-self: center;
+}
+
+
+
+.navbar-brand > img {
+  margin-right: 0.3em;
+}
+
+.navbar > a {
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-item{
+  align-self: center;
+  text-align: center;
+}
+
+/********* Circle Button *********/ 
+.btn-circle {
+  /* width: 30px;
+  height: 30px;
+  padding: 6px 0px; */
+  /* border-radius: 50%;
+  text-align: center; */
+  /* font-size: 12px; */
+  /* line-height: 1.42857; */
+}
+
+/* .active {
+  background-color: #1a535c;
+} */
+
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+
+.btn-circle.btn-md {
+  /* width: 50px;
+  height: 50px; */
+
+  min-width: 45px;
+  min-height: 45px;
+  /* padding: 7px 10px; */
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/********* Profile Pic *********/ 
+.profile-icon {
+  /* position: absolute; */
+  align-self: center;
+  justify-content: center;
+  /* right: 2%;
+  top: 5px; */
+  /* transform: translateX(-50%); */
+}
+
+.profile-pic {
+
+}
+
+.profile-border{
+    min-width: 30px;
+    min-height: 30px;
+    /* padding: 7px 10px; */
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.profile-tab {
+  position: absolute;
+  top:45px;
+  right: 2%;
+  /* display:inline-block; */
+  
+  visibility: visible;
+  width: 130px;
+  /* transform: translateX(100%); */
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  /* border: var(--border);
+  border-radius: var(--border-radius); */
+  padding: 0.5rem;
+  overflow: hidden; 
+
+
+  /* z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0; */
+
+  z-index: 1000;
+  font-size: 1rem;
+  color: #212529;
+  background-clip: padding-box;
+}
+
+.profile-item {
+  height: 43px;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding:0px 0px 0px 0.5em;
+
+  font-weight: 400;
+  color: #212529;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.profile-item:hover {
+  background-color: #e9ecef;
+  text-decoration: none;
+}
+
+.profile-line {
+  margin: 0.5em 0px 0px 0px;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+
+/********* Profile Pic Dropdown *********/ 
+.icon-right {
+  width: 10em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.icon-button {
+  margin-right: 0.75em;
+  width: 1em;
+}
+
+.profile-button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+	/* color: inherit;
+	border: none;
+
+	font: inherit; */
+	cursor: pointer;
+	outline: inherit;
+}
+
+/********* Public Page Sign Up & Login Button *********/ 
+.public-signup-login {
+  /* position: absolute; */
+  float: right;
+  right: 2%;
+  /* top: 10px; */
+  width: auto;
+  
+}
+
+.public-signup {
+  float:left;
+  width:auto;
+  font-size: 20%;
+  color: #f7fff7;
+}
+
+.public-login {
+  float:right;
+  width:auto;
+  border-color: #f7fff7;
+}
+
+/********* Public Page *********/ 
+.welcome {
+  color: #ffe66d ;
+}
+
+#publicpage-document {
+  background-color: #4ecdc4;
+  border-color: #f7fff7;
+  color: #f7fff7;
+  margin-right: 20px;
+}
+
+#publicpage-videoposter {
+  background-color: #ff6b6b;
+  border-color: #f7fff7;
+  color: #f7fff7;
+  margin-right: 20px;
+}
+
+
+/********* Public Sign Up Form *********/ 
+
+
+/********* Public Login Form *********/ 
+.login-bg{
+  background-color: #4ecdc4;
+  min-height: 100vh;
+  padding: 0 20px 50px 20px;
+  overflow: auto;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 50px 20px;
+  width: 60%;
+  min-height: 50vh;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 40%);
+}
+
+/********* Public Signup Form  *********/ 
+.signup-bg{
+  background-color: #4ecdc4;
+  min-height: 100vh;
+  padding: 0 20px 50px 20px;
+  overflow: auto;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 50px 20px;
+  width: 60%;
+  min-height: 80vh;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 40%);
+}
+
+.signup-button {
+  margin-top: 15px;
+  width: 100px;
+  height: 40px;
+  border-radius: 60px;
+}
+
+/********* Search Bar *********/ 
+.search-bar-input {
+  /* width:280px; */
+  /* max-width:100px; */
+  /* display:inline-block */
+ 
+}
+
+#single-search-input{
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  width: 145px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#search-bar-label{
+  transform: translateY(-9px);
+  font-size: 19px;
+}
+
+#advance-search-button:hover {
+    text-decoration: underline;
+  
+}
+
+
+
+.search-bar-btn {
+  /* margin-left:-8px;
+  margin-top:-2px;
+  min-height:36px; */
+  /* width:10px; */
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 40px;
+  background-color: #d7d2d2;
+}
+
+.search-bar .MuiOutlinedInput-adornedEnd {
+  padding: 0px;
+}
+
+#single-search-input-helper-text {
+  color:#1a535c;
+  
+}
+
+/********* My Grocery List Page *********/ 
+.grocery-list-tile {
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+  padding: 0;
+  position: relative;  
+}
+
+.grocery-list-tile:hover {
+  background-color: #e9ecef;
+}
+
+.grocery-list-tile-img {
+  width: 100%;
+  /* height: 20vh; */
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.grocery-list-tile-name {
+  text-align: center;
+  margin: 5%;
+  position: relative; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.grocery-list-tile-subtitle {
+  font-size: 13px;
+  text-align: center;
+}
+
+/********* Grocery List Options Button *********/ 
+.grocery-list-options-button {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border-color: transparent;
+
+  /* border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
+  border: 2px solid #555555; */
+}
+
+/* .grocery-list-options-button img {
+  width: 100%;
+  object-fit: cover;
+} */
+
+
+.grocery-list-options {
+  position: absolute;
+  bottom: 62px;
+  right: 2.5%;
+  /* display:inline-block; */
+  
+  visibility: visible;
+  width: 130px;
+  /* transform: translateX(100%); */
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  /* border: var(--border);
+  border-radius: var(--border-radius); */
+  padding: 0.5rem;
+  overflow: hidden; 
+
+
+  /* z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0; */
+
+  z-index: 1000;
+  font-size: 1rem;
+  color: #212529;
+  background-clip: padding-box;
+}
+
+.grocery-list-options-item {
+  height: 43px;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding:0px 0px 0px 0.5em;
+
+  font-weight: 400;
+  color: #212529;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.grocery-list-options-item:hover {
+  background-color: #e9ecef;
+  text-decoration: none;
+}
+
+.grocery-list-options-icon-right {
+  width: 5em;
+  text-align: left;
+  overflow: hidden;
+}
+
+.grocery-list-options-icon-button {
+  margin-right: 0.75em;
+  width: 1em;
+}
+
+
+/********* Grocery List *********/ 
+.groceryList-title{
+  background-color: #4ecdc4;
+  color: #fff;
+  text-align: center;
+  margin: 0 -15px;
+  padding-top: 5px;
+}
+
+.grocery-list-table {
+  border-collapse: collapse;
+  
+  background-color: #4ecdc4;
+}
+
+.ingredient-category {
+  background-color:  #f3f3f3;
+  border: 3px solid #555555;
+  outline:3px solid #555555;
+  margin: 0;
+  padding: 0;
+}
+
+.ingredient-category-title {
+  background-color: #d4d4cb;
+  color: #1a535c;
+  font-weight: 700;
+  padding: 2px 0 4px 20px ;
+  /* border-bottom: 2px dashed #555555; */
+}
+
+.ingredient-item {
+  width: 100%;
+  margin: 0;
+  padding: 2px 0 2px 20px;
+}
+
+.ingredient-item-checkbox {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.ingredient-item-description {
+  display:inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
+/********* Grocery List Edit & Reset Button *********/ 
+
+.edit-reset-button {
+  position: absolute;
+  right: 2%;
+  bottom: 20px;
+}
+
+.edit-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 15px;
+  
+}
+
+.reset-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.minus-button{
+
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #ff6b6b;
+  color: #f7fff7;
+  border: #212529;
+  border-width: 10px;
+}
+
+.plus-button{
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+/********* Recipe Details Page *********/ 
+.recipe-details-title {
+  background-color:#f7fff7;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recipe-details-left-box {
+  padding: 0;
+  border: 10px solid #4ecdc4;
+  background-color: #4ecdc4;
+}
+
+.recipe-details-ingredient-box {
+
+}
+
+.recipe-details-ingredient-title {
+  background-color: #4ecdc4;
+  color: #1a535c;
+  padding: 0px 0 5px 5px;
+  align-items: center;
+}
+
+.recipe-details-ingredient {
+  height: 100%;
+  background-color: #f7fff7;
+  padding: 5px 10px 5px 10px;
+  font-size: calc(1em + 0.4vw);
+  border-radius: 10px;
+}
+
+.recipe-details-info-box {
+  padding: 0;
+  border: 10px solid #4ecdc4;
+  background-color: #4ecdc4;
+}
+
+.recipe-details-info {
+  height: 100%;
+  background-color: #f7fff7;
+  padding: 5px 10px 5px 10px;
+  font-size: calc(1em + 0.4vw);
+  border-radius: 10px;
+}
+
+.recipe-details-info-title {
+  background-color: #4ecdc4;
+  color: #1a535c;
+  padding: 0 0 5px 5px;
+  align-items: center;
+}
+
+
+.recipe-details-steps-box {
+  padding: 0;
+  border: 10px solid #4ecdc4;
+  background-color: #4ecdc4;
+}
+
+.recipe-details-steps-title {
+  background-color: #4ecdc4;
+  color: #1a535c;
+  padding: 0 0 5px 5px;
+  align-items: center;
+}
+
+.recipe-details-steps {
+  height: 100%;
+  background-color: #f7fff7;
+  padding: 5px 10px 5px 10px;
+  font-size: calc(1em + 0.4vw);
+  border-radius: 10px;
+  min-height: 190px;
+}
+
+.box-information{
+  margin-top: 10px;
+}
+
+/********* Recipe Creation Page *********/ 
+.recipe-creation-name-box {
+  vertical-align: middle ;
+  margin: 0
+}
+
+.recipe-creation-name{
+  max-height: 25vh;
+}
+
+.upload-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  float: right;
+
+  font-size: 15px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px 10px 0px 0px;
+  padding: 0px;
+}
+
+.confirm-cancel-button {
+  position: absolute;
+  right: 2%;
+  bottom: 40px;
+}
+
+.confirm-button {
+  float: right;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.cancel-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.grocList-recipe-tile {
+  margin: 5% 0;
+  height: 95%;
+}
+
+.grocList-confirm-button {
+  float: right;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.grocList-cancel-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.delete-ingredient {
+  background-color: transparent;
+  border: 0;
+  margin-top: 10px;
+}
+
+.delete-ingredient-icon {
+  color: #ff6b6b;
+}
+
+.recipe-creation-ingredient{
+  height: 100%;
+  background-color: #f7fff7;
+  padding: 5px 10px 5px 0px;
+  border-radius: 10px;
+}
+
+.ingredient-input {
+  margin: 10px 0px;
+  /* padding-left: 0; */
+}
+
+.ingredient-name-input .is-invalid {
+  border-color: #ff6600;
+}
+
+.ingredient-name-input .invalid-feedback{
+  color:#ff6600;
+  font-size: small;
+}
+
+.ingredient-unit {
+  justify-content: center;
+  height: 38px;
+}
+
+.ingredient-handle {
+  background-color: transparent;
+  width: 36px; 
+  height: 38px;
+}
+
+.add-ingredient-button {
+  color:#27A745;
+  border: 0;
+  background-color: transparent;
+}
+
+/********* Media Queries *********/ 
+@media (max-width: 767px) {
+  .navbar-brand-mobile {
+    position: absolute;
+    left: 50%;
+    top: 12px;
+    transform: translateX(-50%);
+  }
+
+  .profile-icon {
+    position: absolute;
+    right: 2%;
+    top: 10px; 
+    /* transform: translateX(-50%); */
+  }
+
+  .recipe-details-left-box{
+    border-bottom: 0px;
+  }
+
+  .login-form {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .signup-form {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .recipe-creation-name{
+    max-height: 20vh;
+  }
+
+  .confirm-cancel-button {
+    position: absolute;
+    right: -2%;
+    bottom: 40px;
+  }
+
+  .grocList-confirm-button {
+    float: right;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .grocList-cancel-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+   
+  }
+
+  .grocery-list-tile-name {
+    font-size: calc(12px + 1.1vw);
+  }
+  
+  .grocery-list-tile-subtitle {
+    font-size: calc(5px + 1.02vw);
+  }
+
+  .nav-item{
+  align-self: flex-start;
+  }
+
+  .search-bar{
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+
+  .recipe-tile-title {
+    font-size: 15px !important;
+    height: 27px;
+  }
+
+  .recipe-tile-details {
+    font-size: 12px !important;
+  }
+
+  .recipe-tile-edit-button {
+    font-size: 12px !important;
+    position: relative;
+    right: 2px;
+    bottom: 0px;
+  }
+
+  .recipe-tile-details-box {
+    padding: 2px 10px 4px 10px !important;
+    align-items: center;
+    height: 75px;
+  }
+
+  .welcome{
+    text-align: center;
+    font-size: 56px;
+
+  }
+
+
+}
+
+@media (min-width: 768px) {
+  .search-bar {
+    margin-left: 15px;
+  }
+
+  .recipe-creation-ingredient{
+    min-height: 190px;
+  }
+  
+
+}
+
+@media (min-width: 1200px) {
+  .recipe-tile-details-box {
+    padding: 2px 10px 4px 10px !important;
+    align-items: center;
+    height: 80px;
+  }
+
+  .recipe-tile-edit-button {
+    font-size: 11px !important;
+    position: relative;
+    right: 2px;
+    bottom: 0px;
+    height: 28px;
+  }
+  
+}

@@ -1,0 +1,5 @@
+GroceryList 
+- Use JSONField and do manipulation on the entire table using some algo
+- Create will be a normal create
+- Transferring recipes will be a put req to update the field
+- Delete will be a reg del req
