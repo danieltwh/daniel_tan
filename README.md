@@ -2,7 +2,7 @@
 
 I am a business analytics student who is passionate about data science and analytics. I am actively looking for opportunities in Data Science to grow my skillset in statistics, coding, data structures and algorithms and deep learning.  
 
-👨‍💻&nbsp; Past Projects
+##👨‍💻&nbsp; Past Projects
 | Project  | Description | Website/Code |
 | ------------- | ------------- | ------------- |
 | AWS Build On, ASEAN 2021 - Team Retype  | Developed NLP models with BERT, DistilBert and AWS Comprehend to conduct sentiment analysis of chat messages and give each user a Friendliness score that could supplement buyer/seller reviews on C2C platforms. In addition, created a lowball filter function that redirects frivolous offers into a separate chat folder so that sellers can focus on legitimate offers. <br /><br /> Won the first place in the AWS Build On, ASEAN 2021 competition for the challenge statements by Carousell. | [Check it out!](https://www.retype.sg/)  |
@@ -16,7 +16,7 @@ I am a business analytics student who is passionate about data science and analy
 - Stock Prediction (Time Series Analysis) 
 
 
-💬&nbsp; Languages: 
+##💬&nbsp; Languages: 
 - Python
 - R Programming
 - SQL
