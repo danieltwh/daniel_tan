@@ -1,3 +1,6 @@
 [submodule "Insurtech-CV"]
 	path = Insurtech-CV
 	url = https://github.com/danieltwh/Insurtech-CV.git
+[submodule "Open-Banking-ML"]
+	path = Open-Banking-ML
+	url = https://github.com/danieltwh/Open-Banking-ML.git
