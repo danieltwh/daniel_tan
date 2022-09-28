@@ -1,6 +1,6 @@
 # Hi, I am Daniel! 👋
 
-I am a business analytics & economics student who is passionate about data science and analytics. I am actively looking for opportunities in Data Science to grow my skillset in statistics, coding, data structures and algorithms and deep learning.  
+I am a business analytics & economics student who is passionate about programming and data science. I am actively looking for opportunities to grow my skillset in statistics, coding, data structures and algorithms and deep learning.  
 
 ## Past Projects 👨‍💻
 | **Project**  | **Description** | **Website/Code** |
