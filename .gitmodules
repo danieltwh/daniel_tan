@@ -4,3 +4,6 @@
 [submodule "Open-Banking-ML"]
 	path = Open-Banking-ML
 	url = https://github.com/danieltwh/Open-Banking-ML.git
+[submodule "Stock News Sentiment"]
+	path = Stock News Sentiment
+	url = https://github.com/danieltwh/Sentiment-Analysis-Stock-Performance.git
